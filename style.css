@@ -3,3 +3,16 @@ p{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     line-height: 1.5em;
 }
+
+
+
+/*Like Wikipedia!*/
+.info-tag{
+    text-decoration: dotted underline;
+    
+}
+.info-tag:hover{
+
+    cursor: help;
+}
+
