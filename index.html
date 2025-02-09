@@ -4,7 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Homepage</title>
-    <link rel="stylesheet" href="style.css">
+
+    <!--Default is light mode-->
+    <link id="StyleLink" rel="stylesheet" href="styles/default.css">
+    <!--Change theme according to user preference, we need to load D3 first-->
+    <script src="https://cdn.jsdelivr.net/npm/d3@7"></script>
+    <script type='module' src="scripts/themes.js"></script>
+
+
     <link rel="icon" type="image/png" href="img/favicon.png">
     
     
@@ -19,13 +26,21 @@
     <h2>This is sort of a portfolio-ish thing. Part of it is for my school assignment and the rest is to showcase my coding stuff.</h2>
     <h2>Started writing this Shaʿbān 6, 1446<span class="info-tag" title="Anno Hegirae-In the Year of the Hijrah(Migration). For more info search: &quot;IslamQA Answer 176819&quot;">AH</span>(February 5, 2025CE).</h2>
     <h1 id="title" class="sectiontitle">Welcome to my site!</h1>
-    <div id="aboutdiv"></div>
+    
+    <div id="headerextras">
+    <small>This site supports dark and light mode!</small>
+    <br>
+    <small>The date also might be a little broken.</small>
+    </div>
+
+    <div id="aboutdiv">
         <p id="aboutme">My name is Jaden Brokenbaugh. I was born in California in 1430AH(2009CE), and was moved with my mom to New Jersey around the age of 6. In 8th grade or so I <span class="info-tag" title="What I mean by &quot;revert&quot; is returning to ones fitrah. For more info search &quot;IslamWeb Fatwa 99189&quot;.">reverted</span> to Islam.
             <br>
             I'm currently a sophomore at Gloucester County Institute of Technology, studying Computer Science. I started writing this page on Shaʿbān 6, 1446AH(February 5, 2025CE).
             <br>
             I know a little Python, HTML, CSS, and JS. I also know Roblox Lua.
         </p>
+       
         <hr>
         <h1 id="stufftitle" class="sectiontitle">My Stuff:</h1>
         <br>
@@ -49,7 +64,7 @@
     </div>
     <hr>
     <div id="certdiv">
-        <h1 id="certtitle">Certifications:</h1>
+        <h1 id="certtitle" class="sectiontitle">Certifications:</h1>
         <br>
 
         <div id="itfplusdiv">
