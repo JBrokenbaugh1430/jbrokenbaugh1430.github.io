@@ -11,5 +11,5 @@ const GNow = new Date().toLocaleDateString("en-US", {
     calendar: "gregory"
 })
 const DateText = document.getElementById('date')
-console.log(HNow)
+
 DateText.innerHTML = HNow + "(" + GNow + ")"
