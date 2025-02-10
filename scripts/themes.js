@@ -1,9 +1,10 @@
 if (window.matchMedia("(prefers-color-scheme: dark)").matches){
     
-    //set background color
+    
     /*make it a good pratice to comment.
     once you get a big file, everything gets out of hand
     */
+   //set background color
     d3.select('body')
     .style("background-color", "#111111")
     

@@ -23,6 +23,14 @@ hr{
     border-color: gray;
 }
 
+button{
+
+    font: bold;
+    font-family: Verdana;
+    border-radius: 7px;
+    border-width: 1px;
+
+}
 
 #certdiv{
 
